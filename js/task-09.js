@@ -10,11 +10,3 @@ changeColorBtn.addEventListener("click", () => {
   body.style.backgroundColor = randomColorChange;
   textColor.textContent = randomColorChange;
 });
-
-// changeColorBtn.addEventListener("click", randomColorBody);
-
-// function randomColorBody() {
-//   const randomColorChange = getRandomHexColor();
-//   body.style.backgroundColor = randomColorChange;
-//   textColor.textContent = randomColorChange;
-// }

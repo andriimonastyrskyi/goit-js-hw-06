@@ -14,7 +14,6 @@ function handleSubmit(event) {
   } else {
     userObject.email = email.value;
     userObject.password = password.value;
-    // console.log(`email: ${email.value}, password: ${password.value}`);
   }
   console.log(userObject);
   event.currentTarget.reset();
